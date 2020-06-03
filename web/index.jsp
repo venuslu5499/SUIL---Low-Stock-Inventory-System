@@ -30,7 +30,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script type="text/javascript">
             window.onload = function () {
-<!-- helllo woooorld !!-->
+
                 var test = <%=(Boolean) request.getAttribute("errorMessage")%>;
                 if (test === false)
                 {
